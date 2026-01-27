@@ -31,3 +31,33 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Arquivos de Sistema Operacional ###
+.DS_Store
+Thumbs.db
+*.log
+
+### Arquivos de Configuração Sensíveis ###
+*.env
+.env.local
+.env.*.local
+application-local.properties
+application-local.yml
+
+### Logs e Temporários ###
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+*~
+
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
